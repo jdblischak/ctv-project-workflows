@@ -1,8 +1,17 @@
-# Task View: Project workflow
+# Task View: Project workflows
 
-Brainstorming how to organize a task view proposal focused on CRAN packages that
-facilitate project workflow. The packages are organized into approximate
-categories, but many have features that define the other categories as well.
+**Maintainer:** John Blischak, Anna Krystalli, Ben Marwick, Daniel Nüst
+
+Successfully completing a data analysis project often requires much more than
+statistics and visualizations. Efficiently managing the code, data, and results
+as the project matures helps reduce stress and errors. The CRAN packages in this
+Task View assist the R programmer by managing project infrastructure and/or
+facilitating a reproducible workflow.
+
+If you'd like to suggest a package to include in this Task View, please open an
+[Issue on GitHub][issues].
+
+[issues]: https://github.com/jdblischak/ctv-project-workflows/issues
 
 * [Utilities](#utilities)
 * [Frameworks](#frameworks)
