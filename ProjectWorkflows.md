@@ -44,6 +44,7 @@ is saved in the `src/` subdirectory.
 * [adapr][]
 * [archivist][]
 * [exreport][]
+* [madrat][]
 * [makeProject][]
 * [ProjectTemplate][]
 * [reports][]
@@ -56,6 +57,7 @@ is saved in the `src/` subdirectory.
 [adapr]: https://cran.r-project.org/package=adapr
 [archivist]: https://cran.r-project.org/package=archivist
 [exreport]: https://cran.r-project.org/package=exreport
+[madrat]: https://cran.r-project.org/package=madrat
 [makeProject]: https://cran.r-project.org/package=makeProject
 [ProjectTemplate]: https://cran.r-project.org/package=ProjectTemplate
 [reports]: https://cran.r-project.org/package=reports
