@@ -46,6 +46,7 @@ is saved in the `src/` subdirectory.
 * [exreport][]
 * [madrat][]
 * [makeProject][]
+* [projects][]
 * [ProjectTemplate][]
 * [reports][]
 * [represtools][]
@@ -59,6 +60,7 @@ is saved in the `src/` subdirectory.
 [exreport]: https://cran.r-project.org/package=exreport
 [madrat]: https://cran.r-project.org/package=madrat
 [makeProject]: https://cran.r-project.org/package=makeProject
+[projects]: https://cran.r-project.org/package=projects
 [ProjectTemplate]: https://cran.r-project.org/package=ProjectTemplate
 [reports]: https://cran.r-project.org/package=reports
 [represtools]: https://cran.r-project.org/package=represtools
