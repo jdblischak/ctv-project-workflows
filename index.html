@@ -1,0 +1,197 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<a href="https://github.com/jdblischak/ctv-project-workflows/edit/master/ProjectWorkflows.md">Edit the Task View</a>
+  <title>CRAN Task View: Project Workflows</title>
+  <link rel="stylesheet" type="text/css" href="../CRAN_web.css" />
+  <meta http-equiv="content-type" content="text/html; charset=UTF-8" />
+  <meta name="citation_title" content="CRAN Task View: Project Workflows" />
+  <meta name="citation_author" content="John Blischak, Anna Krystalli, Ben Marwick, Daniel Nüst" />
+  <meta name="citation_publication_date" content="2019-05-28" />
+  <meta name="citation_public_url" content="https://CRAN.R-project.org/view=ProjectWorkflows" />
+  <meta name="DC.title" content="CRAN Task View: Project Workflows" />
+  <meta name="DC.creator" content="John Blischak, Anna Krystalli, Ben Marwick, Daniel Nüst" />
+  <meta name="DC.issued" content="2019-05-28" />
+  <meta name="DC.identifier" content="https://CRAN.R-project.org/view=ProjectWorkflows" />
+</head>
+
+<body>
+  <h2>CRAN Task View: Project Workflows</h2>
+  <table summary="ProjectWorkflows task view information">
+    <tr><td valign="top"><b>Maintainer:</b></td><td>John Blischak, Anna Krystalli, Ben Marwick, Daniel Nüst</td></tr>
+    <tr><td valign="top"><b>Contact:</b></td><td>&#x6a;&#x64;&#x62;&#x6c;&#x69;&#x73;&#x63;&#x68;&#x61;&#x6b;&#x20;&#x61;&#x74;&#x20;&#x67;&#x6d;&#x61;&#x69;&#x6c;&#x2e;&#x63;&#x6f;&#x6d;</td></tr>
+    <tr><td valign="top"><b>Version:</b></td><td>2019-05-28</td></tr>
+    <tr><td valign="top"><b>URL:</b></td><td><a href="https://CRAN.R-project.org/view=ProjectWorkflows">https://CRAN.R-project.org/view=ProjectWorkflows</a></td></tr>
+  </table>
+
+    <div>
+      <p>
+        Successfully completing a data analysis project often requires much more than statistics and visualizations. Efficiently managing the code, data, and results as the project matures helps reduce stress and errors. The CRAN packages in this Task View assist the R programmer by managing project infrastructure and/or facilitating a reproducible workflow.
+      </p>
+      <p>
+        If you’d like to suggest a package to include in this Task View, please open an
+        <a href="https://github.com/jdblischak/ctv-project-workflows/issues">
+          Issue on GitHub
+        </a>.
+      </p>
+      <h2 id="utilities">
+        Utilities
+      </h2>
+      <p>
+        These packages provide single-use functions to implement project infrastructure or solve a specific problem. As a typical example,
+<tt>usethis::use_git()</tt>
+        initializes a Git repository, ignores common R files, and commits all project files.
+      </p>
+      <ul>
+        <li>
+          <a href="https://cran.r-project.org/package=here">
+            here
+          </a>
+        </li>
+        <li>
+          rrtools (
+          <a href="https://github.com/benmarwick/rrtools">
+            GitHub only
+          </a>)
+        </li>
+        <li>
+          <a href="https://cran.r-project.org/package=usethis">
+            usethis
+          </a>
+        </li>
+      </ul>
+      <h2 id="frameworks">
+        Frameworks
+      </h2>
+      <p>
+        These packages provide an organized directory structure and helper functions to assist during the development of the project. As a typical example,
+<tt>ProjectTemplate::create.project()</tt>
+        creates an organized setup with many subdirectories, and
+<tt>ProjectTemplate::run.project()</tt>
+        executes each R script that is saved in the
+<tt>src/</tt>
+        subdirectory.
+      </p>
+      <ul>
+        <li>
+          <a href="https://cran.r-project.org/package=adapr">
+            adapr
+          </a>
+        </li>
+        <li>
+          <a href="https://cran.r-project.org/package=archivist">
+            archivist
+          </a>
+        </li>
+        <li>
+          <a href="https://cran.r-project.org/package=exreport">
+            exreport
+          </a>
+        </li>
+        <li>
+          <a href="https://cran.r-project.org/package=madrat">
+            madrat
+          </a>
+        </li>
+        <li>
+          <a href="https://cran.r-project.org/package=makeProject">
+            makeProject
+          </a>
+        </li>
+        <li>
+          <a href="https://cran.r-project.org/package=projects">
+            projects
+          </a>
+        </li>
+        <li>
+          <a href="https://cran.r-project.org/package=ProjectTemplate">
+            ProjectTemplate
+          </a>
+        </li>
+        <li>
+          <a href="https://cran.r-project.org/package=reports">
+            reports
+          </a>
+        </li>
+        <li>
+          <a href="https://cran.r-project.org/package=represtools">
+            represtools
+          </a>
+        </li>
+        <li>
+          <a href="https://cran.r-project.org/package=RSuite">
+            RSuite
+          </a>
+        </li>
+        <li>
+          <a href="https://cran.r-project.org/package=tinyProject">
+            tinyProject
+          </a>
+        </li>
+        <li>
+          <a href="https://cran.r-project.org/package=workflowr">
+            workflowr
+          </a>
+        </li>
+        <li>
+          <a href="https://cran.r-project.org/package=zoon">
+            zoon
+          </a>
+        </li>
+      </ul>
+      <h2 id="pipelines">
+        Pipelines
+      </h2>
+      <p>
+        These packages implement complex pipelines for processing data in a series of interdependent steps. As a typical example,
+<tt>drake::make()</tt>
+        builds the dependency graph from the defined analysis steps and only executes those steps whose upstream dependencies have been updated.
+      </p>
+      <ul>
+        <li>
+          <a href="https://cran.r-project.org/package=drake">
+            drake
+          </a>
+        </li>
+        <li>
+          <a href="https://cran.r-project.org/package=repo">
+            repo
+          </a>
+        </li>
+      </ul>
+    </div>
+
+  <h3>CRAN packages:</h3>
+  <ul>
+    <li><a href="https://cran.r-project.org/package=adapr/index.html">adapr</a></li>
+    <li><a href="https://cran.r-project.org/package=archivist/index.html">archivist</a></li>
+    <li><a href="https://cran.r-project.org/package=drake/index.html">drake</a></li>
+    <li><a href="https://cran.r-project.org/package=exreport/index.html">exreport</a></li>
+    <li><a href="https://cran.r-project.org/package=here/index.html">here</a></li>
+    <li><a href="https://cran.r-project.org/package=madrat/index.html">madrat</a></li>
+    <li><a href="https://cran.r-project.org/package=makeProject/index.html">makeProject</a></li>
+    <li><a href="https://cran.r-project.org/package=projects/index.html">projects</a></li>
+    <li><a href="https://cran.r-project.org/package=ProjectTemplate/index.html">ProjectTemplate</a></li>
+    <li><a href="https://cran.r-project.org/package=repo/index.html">repo</a></li>
+    <li><a href="https://cran.r-project.org/package=reports/index.html">reports</a></li>
+    <li><a href="https://cran.r-project.org/package=represtools/index.html">represtools</a></li>
+    <li><a href="https://cran.r-project.org/package=RSuite/index.html">RSuite</a></li>
+    <li><a href="https://cran.r-project.org/package=tinyProject/index.html">tinyProject</a></li>
+    <li><a href="https://cran.r-project.org/package=usethis/index.html">usethis</a></li>
+    <li><a href="https://cran.r-project.org/package=workflowr/index.html">workflowr</a></li>
+    <li><a href="https://cran.r-project.org/package=zoon/index.html">zoon</a></li>
+  </ul>
+
+  <h3>Related links:</h3>
+  <ul>
+    <li>CRAN Task View: <a href="https://cran.r-project.org/web/views/ReproducibleResearch.html">ReproducibleResearch</a></li>
+    <li><a href="https://github.com/o2r-project/ctv-computational-environments#readme">
+  Computational Environments and Reproducibility
+</a></li>
+    <li><a href="https://ropensci.github.io/reproducibility-guide/">
+  rOpenSci: Reproducibility in Science
+</a></li>
+  </ul>
+
+</body>
+</html>

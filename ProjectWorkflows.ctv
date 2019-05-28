@@ -1,0 +1,65 @@
+<CRANTaskView>
+<name>ProjectWorkflows</name>
+<topic>Project Workflows</topic>
+<maintainer email="jdblischak@gmail.com">John Blischak, Anna Krystalli, Ben Marwick, Daniel Nüst</maintainer>
+<version>2019-05-28</version>
+<url>https://CRAN.R-project.org/view=ProjectWorkflows</url>
+<info>
+<p>Successfully completing a data analysis project often requires much more than statistics and visualizations. Efficiently managing the code, data, and results as the project matures helps reduce stress and errors. The CRAN packages in this Task View assist the R programmer by managing project infrastructure and/or facilitating a reproducible workflow.</p>
+<p>If you’d like to suggest a package to include in this Task View, please open an <a href="https://github.com/jdblischak/ctv-project-workflows/issues">Issue on GitHub</a>.</p>
+<h2 id="utilities">Utilities</h2>
+<p>These packages provide single-use functions to implement project infrastructure or solve a specific problem. As a typical example, <code>usethis::use_git()</code> initializes a Git repository, ignores common R files, and commits all project files.</p>
+<ul>
+<li><a href="https://cran.r-project.org/package=here">here</a></li>
+<li>rrtools (<a href="https://github.com/benmarwick/rrtools">GitHub only</a>)</li>
+<li><a href="https://cran.r-project.org/package=usethis">usethis</a></li>
+</ul>
+<h2 id="frameworks">Frameworks</h2>
+<p>These packages provide an organized directory structure and helper functions to assist during the development of the project. As a typical example, <code>ProjectTemplate::create.project()</code> creates an organized setup with many subdirectories, and <code>ProjectTemplate::run.project()</code> executes each R script that is saved in the <code>src/</code> subdirectory.</p>
+<ul>
+<li><a href="https://cran.r-project.org/package=adapr">adapr</a></li>
+<li><a href="https://cran.r-project.org/package=archivist">archivist</a></li>
+<li><a href="https://cran.r-project.org/package=exreport">exreport</a></li>
+<li><a href="https://cran.r-project.org/package=madrat">madrat</a></li>
+<li><a href="https://cran.r-project.org/package=makeProject">makeProject</a></li>
+<li><a href="https://cran.r-project.org/package=projects">projects</a></li>
+<li><a href="https://cran.r-project.org/package=ProjectTemplate">ProjectTemplate</a></li>
+<li><a href="https://cran.r-project.org/package=reports">reports</a></li>
+<li><a href="https://cran.r-project.org/package=represtools">represtools</a></li>
+<li><a href="https://cran.r-project.org/package=RSuite">RSuite</a></li>
+<li><a href="https://cran.r-project.org/package=tinyProject">tinyProject</a></li>
+<li><a href="https://cran.r-project.org/package=workflowr">workflowr</a></li>
+<li><a href="https://cran.r-project.org/package=zoon">zoon</a></li>
+</ul>
+<h2 id="pipelines">Pipelines</h2>
+<p>These packages implement complex pipelines for processing data in a series of interdependent steps. As a typical example, <code>drake::make()</code> builds the dependency graph from the defined analysis steps and only executes those steps whose upstream dependencies have been updated.</p>
+<ul>
+<li><a href="https://cran.r-project.org/package=drake">drake</a></li>
+<li><a href="https://cran.r-project.org/package=repo">repo</a></li>
+</ul>
+</info>
+<packagelist>
+<pkg>adapr</pkg>
+<pkg>archivist</pkg>
+<pkg>drake</pkg>
+<pkg>exreport</pkg>
+<pkg>here</pkg>
+<pkg>madrat</pkg>
+<pkg>makeProject</pkg>
+<pkg>projects</pkg>
+<pkg>ProjectTemplate</pkg>
+<pkg>repo</pkg>
+<pkg>reports</pkg>
+<pkg>represtools</pkg>
+<pkg>RSuite</pkg>
+<pkg>tinyProject</pkg>
+<pkg>usethis</pkg>
+<pkg>workflowr</pkg>
+<pkg>zoon</pkg>
+</packagelist>
+<links>
+<view>ReproducibleResearch</view>
+<a href="https://github.com/o2r-project/ctv-computational-environments#readme">Computational Environments and Reproducibility</a>
+<a href="https://ropensci.github.io/reproducibility-guide/">rOpenSci: Reproducibility in Science</a>
+</links>
+</CRANTaskView>

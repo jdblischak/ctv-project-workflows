@@ -1,6 +1,13 @@
-# Task View: Project workflows
-
-**Maintainer:** John Blischak, Anna Krystalli, Ben Marwick, Daniel Nüst
+---
+name: ProjectWorkflows
+topic: Project Workflows
+maintainer:
+  - John Blischak
+  - Anna Krystalli
+  - Ben Marwick
+  - Daniel Nüst
+email: "jdblischak@gmail.com"
+---
 
 Successfully completing a data analysis project often requires much more than
 statistics and visualizations. Efficiently managing the code, data, and results
@@ -13,11 +20,6 @@ If you'd like to suggest a package to include in this Task View, please open an
 
 [issues]: https://github.com/jdblischak/ctv-project-workflows/issues
 
-* [Utilities](#utilities)
-* [Frameworks](#frameworks)
-* [Pipelines](#pipelines)
-* [Related links](#related-links)
-
 ## Utilities
 
 These packages provide single-use functions to implement project infrastructure
@@ -26,11 +28,11 @@ initializes a Git repository, ignores common R files, and commits all project
 files.
 
 * [here][]
-* [rrtools][]
+* rrtools ([GitHub only][rrtools])
 * [usethis][]
 
 [here]: https://cran.r-project.org/package=here
-[rrtools]: https://cran.r-project.org/package=rrtools
+[rrtools]: https://github.com/benmarwick/rrtools
 [usethis]: https://cran.r-project.org/package=usethis
 
 ## Frameworks
@@ -84,8 +86,10 @@ whose upstream dependencies have been updated.
 
 ## Related links
 
-* CRAN Task View: [Reproducible Research][ctv-rr] (literate programming)
-* Task View: [Computational Environments and Reproducibility][tv-env] (software dependency management)
+* CRAN Task View: [Reproducible Research][ctv-rr]
+* [Computational Environments and Reproducibility][tv-env]
+* [rOpenSci: Reproducibility in Science][ropensci-guide]
 
 [ctv-rr]: https://cran.r-project.org/view=ReproducibleResearch
 [tv-env]: https://github.com/o2r-project/ctv-computational-environments#readme
+[ropensci-guide]: https://ropensci.github.io/reproducibility-guide/

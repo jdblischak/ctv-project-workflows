@@ -3,7 +3,7 @@ name: Package Suggestion
 about: Suggest a package to be included in the Task View
 ---
 
-1. Which package would like to suggest?
+1. Which package would you like to suggest?
 
 
 
