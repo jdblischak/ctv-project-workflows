@@ -29,10 +29,12 @@ files.
 
 * [here][]
 * rrtools ([GitHub only][rrtools])
+* starters ([GitHub only][starters])
 * [usethis][]
 
 [here]: https://cran.r-project.org/package=here
 [rrtools]: https://github.com/benmarwick/rrtools
+[starters]: https://github.com/lockedata/starters
 [usethis]: https://cran.r-project.org/package=usethis
 
 ## Frameworks

@@ -12,6 +12,7 @@
 <ul>
 <li><a href="https://cran.r-project.org/package=here">here</a></li>
 <li>rrtools (<a href="https://github.com/benmarwick/rrtools">GitHub only</a>)</li>
+<li>starters (<a href="https://github.com/lockedata/starters">GitHub only</a>)</li>
 <li><a href="https://cran.r-project.org/package=usethis">usethis</a></li>
 </ul>
 <h2 id="frameworks">Frameworks</h2>
