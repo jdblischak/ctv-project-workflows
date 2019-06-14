@@ -5,7 +5,11 @@ data analysis project.
 
 ## Project details
 
-* **Maintainers:** John Blischak, Anna Krystalli, Ben Marwick, Daniel Nüst
+* **Maintainers:**
+[John Blischak](https://github.com/jdblischak),
+[Anna Krystalli](https://github.com/annakrystalli),
+[Ben Marwick](https://github.com/benmarwick),
+[Daniel Nüst](https://github.com/nuest)
 * **Code of Conduct:** Please note that this project is released with a
 [Contributor Code of Conduct](CODE_OF_CONDUCT.md). By participating in this
 project you agree to abide by its terms.
