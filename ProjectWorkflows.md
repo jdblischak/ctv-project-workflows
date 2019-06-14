@@ -90,8 +90,10 @@ whose upstream dependencies have been updated.
 
 * CRAN Task View: [Reproducible Research][ctv-rr]
 * [Computational Environments and Reproducibility][tv-env]
+* [Project-oriented workflow by Jenny Bryan][project-oriented-workflow]
 * [rOpenSci: Reproducibility in Science][ropensci-guide]
 
 [ctv-rr]: https://cran.r-project.org/view=ReproducibleResearch
 [tv-env]: https://github.com/o2r-project/ctv-computational-environments#readme
+[project-oriented-workflow]: https://www.tidyverse.org/articles/2017/12/workflow-vs-script/
 [ropensci-guide]: https://ropensci.github.io/reproducibility-guide/
