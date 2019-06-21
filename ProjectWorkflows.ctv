@@ -2,7 +2,7 @@
 <name>ProjectWorkflows</name>
 <topic>Project Workflows</topic>
 <maintainer email="jdblischak@gmail.com">John Blischak, Anna Krystalli, Ben Marwick, Daniel Nüst</maintainer>
-<version>2019-06-14</version>
+<version>2019-06-21</version>
 <url>https://CRAN.R-project.org/view=ProjectWorkflows</url>
 <info>
 <p>Successfully completing a data analysis project often requires much more than statistics and visualizations. Efficiently managing the code, data, and results as the project matures helps reduce stress and errors. The CRAN packages in this Task View assist the R programmer by managing project infrastructure and/or facilitating a reproducible workflow.</p>
@@ -11,6 +11,7 @@
 <p>These packages provide single-use functions to implement project infrastructure or solve a specific problem. As a typical example, <code>usethis::use_git()</code> initializes a Git repository, ignores common R files, and commits all project files.</p>
 <ul>
 <li><a href="https://cran.r-project.org/package=here">here</a></li>
+<li><a href="https://cran.r-project.org/package=RepoGenerator">RepoGenerator</a></li>
 <li>rrtools (<a href="https://github.com/benmarwick/rrtools">GitHub only</a>)</li>
 <li>starters (<a href="https://github.com/lockedata/starters">GitHub only</a>)</li>
 <li><a href="https://cran.r-project.org/package=usethis">usethis</a></li>
@@ -50,6 +51,7 @@
 <pkg>projects</pkg>
 <pkg>ProjectTemplate</pkg>
 <pkg>repo</pkg>
+<pkg>RepoGenerator</pkg>
 <pkg>reports</pkg>
 <pkg>represtools</pkg>
 <pkg>RSuite</pkg>

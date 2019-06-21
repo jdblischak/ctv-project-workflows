@@ -54,7 +54,7 @@ available <- rownames(available.packages())
 pkgs <- stringr::str_match_all(ctv_info,
                              '<a href="(http.+)">(\\S+)</a>')
 stopifnot(length(pkgs) == 1)
-pkgs <- as.data.frame(pkgs[[1]])
+pkgs <- as.data.frame(pkgs[[1]], stringsAsFactors = FALSE)
 colnames(pkgs) <- c("html", "url", "name")
 pkgs <- pkgs[order(pkgs$name), ]
 pkgs_cran <- pkgs$name %in% available
