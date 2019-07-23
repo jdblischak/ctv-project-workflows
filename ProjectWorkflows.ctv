@@ -2,7 +2,7 @@
 <name>ProjectWorkflows</name>
 <topic>Project Workflows</topic>
 <maintainer email="jdblischak@gmail.com">John Blischak, Anna Krystalli, Ben Marwick, Daniel Nüst</maintainer>
-<version>2019-06-24</version>
+<version>2019-07-23</version>
 <url>https://CRAN.R-project.org/view=ProjectWorkflows</url>
 <info>
 <p>Successfully completing a data analysis project often requires much more than statistics and visualizations. Efficiently managing the code, data, and results as the project matures helps reduce stress and errors. The CRAN packages in this Task View assist the R programmer by managing project infrastructure and/or facilitating a reproducible workflow.</p>
@@ -22,6 +22,7 @@
 <ul>
 <li><a href="https://cran.r-project.org/package=adapr">adapr</a></li>
 <li><a href="https://cran.r-project.org/package=archivist">archivist</a></li>
+<li><a href="https://cran.r-project.org/package=DataPackageR">DataPackageR</a></li>
 <li><a href="https://cran.r-project.org/package=exreport">exreport</a></li>
 <li><a href="https://cran.r-project.org/package=madrat">madrat</a></li>
 <li><a href="https://cran.r-project.org/package=makeProject">makeProject</a></li>
@@ -44,6 +45,7 @@
 <packagelist>
 <pkg>adapr</pkg>
 <pkg>archivist</pkg>
+<pkg>DataPackageR</pkg>
 <pkg>drake</pkg>
 <pkg>exreport</pkg>
 <pkg>here</pkg>
