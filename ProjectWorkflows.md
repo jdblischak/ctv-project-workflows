@@ -27,6 +27,7 @@ or solve a specific problem. As a typical example, `usethis::use_git()`
 initializes a Git repository, ignores common R files, and commits all project
 files.
 
+* [cabinets][]
 * [here][]
 * [prodigenr][]
 * [RepoGenerator][]
@@ -34,6 +35,7 @@ files.
 * starters ([GitHub only][starters])
 * [usethis][]
 
+[cabinets]: https://cran.r-project.org/package=cabinets
 [here]: https://cran.r-project.org/package=here
 [prodigenr]: https://cran.r-project.org/package=prodigenr
 [RepoGenerator]: https://cran.r-project.org/package=RepoGenerator
