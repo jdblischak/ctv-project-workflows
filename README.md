@@ -1,6 +1,8 @@
 # Task View: ProjectWorkflows
 
-**Archived:** This proposed Task View was merged with the existing
+---
+
+**ARCHIVED:** This proposed Task View was merged with the existing
   [Reproducible Research Task
   View](https://cran.r-project.org/view=ReproducibleResearch). Please
   go to the repository
@@ -10,6 +12,8 @@
   [r-project-workflows](https://github.com/jdblischak/r-project-workflows)
   to share any R-related resources (packages, templates, blog posts,
   etc.) for managing project workflows.
+
+---
 
 Task View to curate CRAN packages that assist with the workflow of an R-based
 data analysis project.
